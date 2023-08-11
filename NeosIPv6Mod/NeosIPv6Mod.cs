@@ -43,6 +43,45 @@ namespace NeosIPv6Mod
             }
         }
 
+        [HarmonyPatch(typeof(NatPunchModule))]
+        public class NatPunchModulePatch
+        {
+            private class NatIntroduceRequestPacket
+            {
+                public IPEndPoint Internal { get; set; }
+                public string Token { get; set; }
+            }
+
+            private static readonly MethodInfo SendDelegate = AccessTools.Method(typeof(NatPunchModule), "Send");
+            private static readonly Type NetSocketType = AccessTools.TypeByName("LiteNetLib.NetSocket");
+            private static readonly FieldInfo LocalPortField = AccessTools.Field(NetSocketType, "LocalPort");
+
+            [HarmonyPrefix]
+            [HarmonyPatch("SendNatIntroduceRequest", new Type[] {typeof(IPEndPoint), typeof(string)})]
+            private static bool SendNatIntroduceRequest(NatPunchModule __instance, IPEndPoint masterServerEndPoint, string additionalInfo,
+                    ref object ____socket)
+            {
+                int port = (int)LocalPortField.GetValue(____socket);
+
+                //prepare outgoing data
+                string networkIp = LiteNetLib.NetUtils.GetLocalIp(LocalAddrType.IPv4);
+                if (string.IsNullOrEmpty(networkIp))
+                {
+                    networkIp = LiteNetLib.NetUtils.GetLocalIp(LocalAddrType.IPv6);
+                }
+
+                SendDelegate.Invoke(__instance, new object[] {
+                    new NatIntroduceRequestPacket
+                    {
+                        Internal = LiteNetLib.NetUtils.MakeEndPoint(networkIp, port),
+                        Token = additionalInfo
+                    },
+                    masterServerEndPoint
+                });
+                return false;
+            }
+        }
+
         [HarmonyPatch(typeof(LNL_Listener))]
         public class NeosIPv6ModPatch
         {

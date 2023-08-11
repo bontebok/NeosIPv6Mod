@@ -10,7 +10,7 @@
     <Deterministic>true</Deterministic>
     <RootNamespace>NeosIPv6Mod</RootNamespace>
     <LangVersion>9.0</LangVersion>
-    <ApplicationVersion>1.0.0</ApplicationVersion>
+    <ApplicationVersion>2.0.0</ApplicationVersion>
     <NeosPath Condition="Exists('C:\Neos\app\')">C:\Neos\app\</NeosPath>
   </PropertyGroup>
   <ItemGroup>
