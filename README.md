@@ -11,7 +11,6 @@ The Mod should work under Neos Headless servers as well, but this feature has no
 
 1. Install [NeosModLoader](https://github.com/zkxs/NeosModLoader).
 1. Place [NeosIPv6Mod.dll](https://github.com/bontebok/NeosIPv6Mod/releases) into your `nml_mods` folder. This folder should be at `C:\Program Files (x86)\Steam\steamapps\common\NeosVR\nml_mods` for a default install. You can create it if it's missing, or if you launch the game once with NeosModLoader installed it will create the folder for you.
-1. Make a backup copy of the LiteNetLib.dll file located in your Neos_Data\Managed folder, which should be located at `C:\Program Files (x86)\Steam\steamapps\common\NeosVR\Neos_Data\Managed`. Copy the LiteNetLib.dll file from the version contained in release for this mod into the Managed folder. As LNL does not by default include IPv6 punch through support, this is required. Source can be found here: [LiteNetLib](https://github.com/bontebok/LiteNetLib)
 1. Start the game. If you want to verify that the mod is working you can check your Neos logs.
 
 
@@ -27,6 +26,8 @@ The Mod should work under Neos Headless servers as well, but this feature has no
 # Thank You
 
 * This Mod is dedicated to the users who are limited in being able to use Neos due to various IPv4 restrictions, including Strict-Type NAT, or CGNAT (Carrier Grade NAT).
+* Thanks to the Neos Modding Community for providing assistance in developing this mod.
+* Thanks to [Stiefel Jackal](https://github.com/stiefeljackal) for testing and code review.
 
 
 # Issues
