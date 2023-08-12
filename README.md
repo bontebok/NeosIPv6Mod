@@ -4,6 +4,8 @@ A [NeosModLoader](https://github.com/zkxs/NeosModLoader) mod for [Neos VR](https
 
 The NeosIPv6Mod includes three settings which utilize the [ModSettings](https://github.com/badhaloninja/NeosModSettings) mod to allow them to be changed. The settings apply immediately but do not affect any current session connections, only those established through the punch through process.
 
+In order for Neos to use IPv6, both parties (host and client) need to have an IPv6 IP Address and have the mod installed. Without IPv6, this mod will not function correctly. If you are having trouble, first verify that you have an IPv6 IP Address, the following site will provide verification. [Test-IPv6.com](https://test-ipv6.com/). If you do not have an IPv6 IP Address, contact your Internet Service Provider for assistance.
+
 The Mod should work under Neos Headless servers as well, but this feature has not been tested.
 
 
