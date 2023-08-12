@@ -25,14 +25,14 @@ NeosでIPv6を使用するには、両者（ホストとクライアント）が
 |`disableMod`    |`false`              |IPv6 の試行を実行せず、標準の Neos ネットワークにフォールバックします。                                                  |
 
 
-＃ 謝辞
+#＃ 謝辞
 
 ※このModは、Strict-Type NATやCGNAT（Carrier Grade NAT）を含むIPv4の各種制限によりNeosの利用が制限されているユーザー向けです。
 * この MOD の開発を支援してくれた Neos Modding Community に感謝します。
 * テストとコードレビューに対する [Stiefel Jackal](https://github.com/stiefeljackal) に感謝します。
 
 
-＃ 既知の問題
+#＃ 既知の問題
 
 * 単一のNatPunchModuleがIPv4とIPv6の両方で共有される方法の性質により、一部のIPログが正しくない可能性があります。これは将来のリリースで解決されることを期待しています。
 * 問題が見つかった場合は、解決されるよう上記の問題を使用して報告してください。 プルリクエストは大歓迎です!
