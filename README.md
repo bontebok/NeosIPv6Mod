@@ -1,4 +1,5 @@
 # NeosIPv6Mod
+[Japanese Translation](https://github.com/bontebok/NeosIPv6Mod/blob/main/READMEjp.md)
 
 A [NeosModLoader](https://github.com/zkxs/NeosModLoader) mod for [Neos VR](https://neos.com/) to provide transparent IPv6 connectivity for sessions. The mod utilizes a third party IPv6 LNL Server to facilitate IPv6 UDP punch throughs. The mod should be transparent for all users and falls back to IPv4 after attempting an IPv6 punch through.
 
@@ -30,6 +31,7 @@ The Mod should work under Neos Headless servers as well, but this feature has no
 * This Mod is dedicated to the users who are limited in being able to use Neos due to various IPv4 restrictions, including Strict-Type NAT, or CGNAT (Carrier Grade NAT).
 * Thanks to the Neos Modding Community for providing assistance in developing this mod.
 * Thanks to [Stiefel Jackal](https://github.com/stiefeljackal) for testing and code review.
+* Thanks to [litalita](https://github.com/litalita0) for providing the Japanese translation.
 
 
 # Issues
