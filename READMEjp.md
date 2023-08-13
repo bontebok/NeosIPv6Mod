@@ -6,7 +6,7 @@ NeosIPv6Mod には、[ModSettings](https://github.com/badhaloninja/NeosModSettin
 
 NeosでIPv6を使用するには、両者（ホストとクライアント）がIPv6のIPアドレスを持ち、MODをインストールしている必要があります。IPv6がないと、このMODは正しく機能しません。問題がある場合は、まずIPv6 IPアドレスを持っていることを確認してください。[Test-IPv6.com](https://test-ipv6.com) を使うと確認することができます。 IPv6 IPアドレスをお持ちでない場合は、インターネットサービスプロバイダにお問い合わせください。
 
-このModはNeos Headlessサーバーでも動作するはずですが、この機能はテストされていません。
+NeosIPv6Modは、WindowsとLinuxクライアント、およびWindowsとLinuxのヘッドレスクライアントで動作する。
 
 
 # インストール
