@@ -7,7 +7,7 @@ The NeosIPv6Mod includes three settings which utilize the [ModSettings](https://
 
 In order for Neos to use IPv6, both parties (host and client) need to have an IPv6 IP Address and have the mod installed. Without IPv6, this mod will not function correctly. If you are having trouble, first verify that you have an IPv6 IP Address, the following site will provide verification. [Test-IPv6.com](https://test-ipv6.com/). If you do not have an IPv6 IP Address, contact your Internet Service Provider for assistance.
 
-The Mod should work under Neos Headless servers as well, but this feature has not been tested.
+NeosIPv6Mod works on Windows and Linux clients, as well as Windows and Linux headless clients.
 
 
 ## Installation
