@@ -32,6 +32,7 @@ NeosIPv6Mod works on Windows and Linux clients, as well as Windows and Linux hea
 * Thanks to the Neos Modding Community for providing assistance in developing this mod.
 * Thanks to [Stiefel Jackal](https://github.com/stiefeljackal) for testing and code review.
 * Thanks to [litalita](https://github.com/litalita0) for providing the Japanese translation.
+* Thanks to [MirPASEC](https://github.com/mirpasec) for providing the Korean translation.
 
 
 # Issues
