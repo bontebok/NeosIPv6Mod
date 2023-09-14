@@ -1,5 +1,5 @@
 # NeosIPv6Mod
-[Japanese Translation](https://github.com/bontebok/NeosIPv6Mod/blob/main/READMEjp.md) | [Korean Translation)](https://github.com/bontebok/NeosIPv6Mod/blob/main/READMEkr.md)
+[Japanese Translation](https://github.com/bontebok/NeosIPv6Mod/blob/main/READMEjp.md) | [Korean Translation](https://github.com/bontebok/NeosIPv6Mod/blob/main/READMEkr.md)
 
 A [NeosModLoader](https://github.com/zkxs/NeosModLoader) mod for [Neos VR](https://neos.com/) to provide transparent IPv6 connectivity for sessions. The mod utilizes a third party IPv6 LNL Server to facilitate IPv6 UDP punch throughs. The mod should be transparent for all users and falls back to IPv4 after attempting an IPv6 punch through.
 
