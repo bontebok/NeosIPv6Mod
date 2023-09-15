@@ -12,8 +12,8 @@ NeosIPv6Mod fonctionne sur les clients Linux et Windows et sur les clients Headl
 ## Installation
 
 1. Installez [NeosModLoader](https://github.com/zkxs/NeosModLoader).
-2. Placez [NeosIPv6Mod](https://github.com/bontebok/NeosIPv6Mod/releases) dans le dossier `nml_mods`. Ce dossier devrait être dans `C:\Program Files (x86)\Steam\steamapps\common\NeosVR\nml_mods` pour une installation par défault. Vous pouvez créer le dossier si il n'existe pas. Vous pouvez aussi lancer le jeu avec NeosModLoader pour créer le dossier automatiquement.
-3. Démarrez le jeu. Si vous voulez vérifier que le mod est bien installé, vous pouvez regarder les logs.
+1. Placez [NeosIPv6Mod](https://github.com/bontebok/NeosIPv6Mod/releases) dans le dossier `nml_mods`. Ce dossier devrait être dans `C:\Program Files (x86)\Steam\steamapps\common\NeosVR\nml_mods` pour une installation par défault. Vous pouvez créer le dossier si il n'existe pas. Vous pouvez aussi lancer le jeu avec NeosModLoader pour créer le dossier automatiquement.
+1. Démarrez le jeu. Si vous voulez vérifier que le mod est bien installé, vous pouvez regarder les logs.
 
 
 ## Options

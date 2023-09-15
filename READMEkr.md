@@ -12,8 +12,8 @@ NeosIPv6Mod는 Windows 및 Linux 클라이언트 및 Windows 및 Linux 헤드리
 ## 설치
 
 1. [NeosModLoader](https://github.com/zkxs/NeosModLoader)를 설치합니다.
-2. [NeosIPv6Mod.dll](https://github.com/bontebok/NeosIPv6Mod/releases)을 `nml_mods` 폴더에 넣습니다. 이 폴더는 보통 `C:\Program Files (x86)\Steam\steamapps\common\NeosVR\nml_mods`에 있어야 합니다. 이 폴더가 없는 경우 직접 만들거나 NeosModLoader를 설치한 상태에서 게임을 한 번 실행하면 폴더가 자동으로 생성됩니다.
-3. 게임을 시작합니다.(모드가 작동하는지 확인하려면 네오스 로그를 확인합니다.)
+1. [NeosIPv6Mod.dll](https://github.com/bontebok/NeosIPv6Mod/releases)을 `nml_mods` 폴더에 넣습니다. 이 폴더는 보통 `C:\Program Files (x86)\Steam\steamapps\common\NeosVR\nml_mods`에 있어야 합니다. 이 폴더가 없는 경우 직접 만들거나 NeosModLoader를 설치한 상태에서 게임을 한 번 실행하면 폴더가 자동으로 생성됩니다.
+1. 게임을 시작합니다.(모드가 작동하는지 확인하려면 네오스 로그를 확인합니다.)
 
 
 ## 구성 옵션
